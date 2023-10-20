@@ -30,11 +30,11 @@ accessing and manipulating this array.
 Near the top of `indexTest.js` you will see the following:
 
 ```js
-beforeEach(function () {
+;beforeEach(function () {
   cats.length = 0;
 
   cats.push("Milo", "Otis", "Garfield");
-});
+})
 ```
 
 What this code does is _reset_ the array to its original contents before each
